@@ -10,7 +10,7 @@ int main(void)
 	int i;
 	char hex_digits[] = "01234456789abcdef";
 
-	for (i = 0; i < 16; i++)
+	for (i = 0; i <= 16; i++)
 		putchar(hex_digits[i]);
 
 	putchar('\n');
