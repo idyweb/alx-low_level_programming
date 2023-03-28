@@ -17,6 +17,7 @@ int main(void)
 	n = 402;
 	p = &n;
 	*p = 98;
+	reset_to_98(&n);
 
 	return (0);
 }
