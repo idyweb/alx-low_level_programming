@@ -3,8 +3,6 @@
 #include "main.h"
 /**
  * main - a program that prints the minimum number of coins
- * @cent: change that remains
- * @num_coin: amount of money given
  * @argc: the number of command line arguments provided
  * @argv: an array of strings containing the command line arguments
  * Return: 0 on success, 1 on error:
