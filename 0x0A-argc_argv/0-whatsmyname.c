@@ -9,7 +9,7 @@
 int main(int argc __attribute__((unused)), char *argv[])
 
 {
-	printf("this is y name %s\n", argv[0]);
+	printf("this is my name %s\n", argv[0]);
 
 	return (0);
 }
