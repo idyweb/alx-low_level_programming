@@ -1,1 +1,1 @@
-This is the readme for FUNCTIONS NESTED LOOPS.
+This is a readme file for pointers arrays and strings
