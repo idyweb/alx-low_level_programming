@@ -32,14 +32,14 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for (i = 0; i < 5 && num >= 0; j++)
+	for (i = 0; i < 5 && num >= 0; i++)
 	{
-		while (num >= coin[i])
+		while (num >= coins[i])
 		{
 			result++;
-			num -= coin[i];
+			num -= coins[i];
 		}
 	}
-	printf("%\n", result);
+	printf("%d\n", result);
 	return (0);
 }
