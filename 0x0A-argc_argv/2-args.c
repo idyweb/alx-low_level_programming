@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
 	for (a = 0; a < argc; a++)
 	{
-		printf("these are the arguments passed %s\n", argv[a]);
+		printf("these are the arguments passed %s\n", argv[a] + 2);
 	}
 	return (0);
 }
