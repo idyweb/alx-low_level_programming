@@ -13,7 +13,7 @@ int sqrtm(int a, int b)
 		return (b);
 	else if (b * b > a)
 		return (-1);
-	return (sqrt(a, b + 1));
+	return (sqrtm(a, b + 1));
 }
 
 /**
