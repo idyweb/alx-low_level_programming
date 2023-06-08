@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * sqrt - square root
+ * sqrtm - my square root
  * @a: number
  * @b: number that iterates from 1 to n
  *
