@@ -7,7 +7,7 @@
  *
  * Return: 0;
  */
-int sqrt(int a, int b)
+int sqrtm(int a, int b)
 {
 	if (b * b == a)
 		return (b);
@@ -24,5 +24,5 @@ int sqrt(int a, int b)
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 1));
+	return (sqrtm(n, 1));
 }
