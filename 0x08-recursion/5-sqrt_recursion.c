@@ -7,7 +7,7 @@
  */
 int sqrt_a(int a, int b)
 {
-	if (b * b == q)
+	if (b * b == a)
 	{
 		return (b);
 	}
