@@ -32,15 +32,16 @@ int compare(char *s, int l)
 	{
 		return (0);
 	}
-	/**
-	 * is_palindrome - main entry
-	 * @s: input
-	 * Return: 0
-	 */
-	int is_palindrome(char *s)
-	{
-		int l;
+}
+/**
+ * is_palindrome - main entry
+* @s: input
+* Return: 0
+*/
+int is_palindrome(char *s)
+{
+	int l;
 
-		l = long_1(s);
-		return (compare(s, l));
-	}
+	l = long_1(s);
+	return (compare(s, l));
+}
