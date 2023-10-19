@@ -45,5 +45,5 @@ void print_all(const char * const format, ...)
 			break;
 		} i++;
 	}
-	printf("\n"), va_end(calist);
+	printf("\n"), va_end(valist);
 }
