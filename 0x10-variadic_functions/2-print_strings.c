@@ -5,15 +5,15 @@
  * @x: number of strings passed to function.
  * Return: no return.
  */
-void print_strings(const char *seperator, const unsigned int n, ...)
+void print_strings(const char *seperator, const unsigned int x, ...)
 {
 	va_list valist;
 	unsigned int i;
 	char *str;
 
-	va_start(valist, n);
+	va_start(valist, x);
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i < x; i++)
 	{
 		str = va_arg(valist, char *);
 
@@ -22,7 +22,7 @@ void print_strings(const char *seperator, const unsigned int n, ...)
 		else
 			printf("(nil)");
 
-		if (i < n -1)
+		if (i < x - 1)
 			if (seperator)
 				printf("%s", seperator);
 	}
