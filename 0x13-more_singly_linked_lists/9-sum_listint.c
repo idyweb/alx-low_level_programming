@@ -8,7 +8,7 @@
  * Return: sum of all the data (n).
 **/
 int sum_listint(listint_t *head)
-{
+{ss
 	int sum;
 
 	sum = 0;
